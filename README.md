@@ -1,4 +1,4 @@
-# ommo_imu_msp430FR2355
+# Battery Powered Sensor Sampler
 msp430FR2355 interfaced with IMU (LSM6DSM) on SPI
 
 SPI mode 3 as only one spi device is connected
