@@ -54,7 +54,7 @@ Read the data of specific sensor(Acc/gyro)
  
  Then the SPI interrupt is on and the IMU will send the data to microcontroller.
  So it's SPI Tx
- store the data of sensors.
+ Then store the data of sensors from Tx buffer to variable.
  
  
  ## Main loop
