@@ -79,3 +79,4 @@ the delay is given and rechecking of pin is done to ensure button is pressed for
 if less than 500ms the IMU will be ON state
 if around 500ms the SPI interrupt is disabled.
           
+Assume IMU is Disabled/OFF state 
