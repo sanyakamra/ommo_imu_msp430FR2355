@@ -16,11 +16,15 @@ first).
 bit 16-... : data DI(...-8). Further data in multiple byte writes.
 
 FIFO_CTRL5 (0Ah)
+
 CTRL3_C (12h) 
+
 CTRL1_XL (10h) ;Linear acceleration sensor control register 
+
 CTRL2_G (11h)  ;Angular rate sensor control register
 
-Configuration sent to IMU over SPI
+
+Configuration sent to IMU over SPI TX
 
 Read P4.1 for Button press
 if button pressed then the line gets short and no signal at microcontroller input.
