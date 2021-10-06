@@ -5,10 +5,14 @@ SPI mode 3 as only one spi device is connected
 Big Endian Data selection
 
 ## SPI Write and configure Registers for IMU:
+
 bit 0: WRITE bit. The value is 0.
+
 bit 1 -7: address AD(6:0). This is the address field of the indexed register.
+
 bit 8-15: data DI(7:0) (write mode). This is the data that is written inside the device (MSb
 first).
+
 bit 16-... : data DI(...-8). Further data in multiple byte writes.
 
 FIFO_CTRL5 (0Ah)
@@ -24,8 +28,11 @@ if button pressed then the line gets short and no signal at microcontroller inpu
 Once the button is pressed, then the data is collected from gyro and acc.
 by sending the read command of SPI:
 ## SPI Read
+
 bit 0: READ bit. The value is 1.
+
 bit 1-7: address AD(6:0). This is the address field of the indexed register.
+
 bit 8-15: data DO(7:0) (read mode). This is the data that will be read from the device (MSb
 first).
 
