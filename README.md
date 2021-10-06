@@ -33,16 +33,22 @@ Read the data of specific sensor(Acc/gyro)
 
  OUTX_L_G (22h) & OUTX_H_G (23h)
           Angular rate sensor pitch axis (X) angular rate output register (r)  -CR CTRL2_G (11h))
+          
    OUTY_L_G (24h) & OUTY_H_G (25h)
           Angular rate sensor roll axis (Y) angular rate output register (r)   -CR CTRL2_G (11h))
+          
    OUTZ_L_G (26h) & OUTZ_H_G (27h)
           Angular rate sensor yaw axis (Z) angular rate output register (r)   -CR CTRL2_G (11h))
+          
    OUTX_L_XL (28h) & OUTX_H_XL (29h)
           Linear acceleration sensor X-axis output register (r)
+          
    OUTY_L_XL (2Ah) & OUTY_H_XL (2Bh)
           Linear acceleration sensor Y-axis output register (r)
+          
    OUTZ_L_XL (2Ch) & OUTZ_H_XL (2Dh)
           Linear acceleration sensor Z-axis output register (r)
+          
           
  ## Enable interrupt
  
